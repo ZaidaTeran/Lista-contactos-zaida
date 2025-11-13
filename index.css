@@ -102,7 +102,7 @@ li{
     padding-top: 0.5rem;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     align-items: center;
     padding-bottom: 0.5rem;
 }
@@ -242,5 +242,6 @@ li{
     ul, form{
         width: 60%;
     }
+
 
 }
