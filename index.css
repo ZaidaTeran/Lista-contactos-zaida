@@ -1,0 +1,246 @@
+body{
+    margin: 0%;
+    height: 100svh;
+    background-color: var(--body-color);
+}
+
+main{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+form{
+    width: 85%;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    background-color: var(--fondo-color);
+}
+
+.h2{
+    font-size: 1.4rem;
+    margin: 15px;
+    color: black;
+}
+
+.error{
+    font-size: 0.85rem;
+    margin: 0;
+    padding-top: 5px;
+    color: var(--color-text-error);
+}
+
+.creardatos{
+    font-size: 0.9rem;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.345rem;
+    padding: 0.2rem;
+    background-color: rgb(202, 198, 198);
+    border: 2px solid gray;
+}
+
+#errortext{
+    border-color: red;
+}
+
+.creardatos:hover{
+    background-color: white;
+}
+
+#crear{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: var(--color-boton);
+    color: rgb(241, 241, 241);
+    -webkit-text-stroke: 1px rgba(226, 216, 216, 0.973);
+    
+}
+
+#crear:hover{
+    background-color: rgb(172, 77, 156);
+    border-radius: 0.35rem;
+    color: white;
+}
+
+ul{
+    border: 1px solid gray;
+    width: 90%;
+    list-style: none;
+    border-radius: 0.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--fondo-color);
+    overflow: auto;
+}
+
+ul::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(165, 158, 158);
+}
+
+ul::-webkit-scrollbar-thumb{
+    background-color: rgb(238, 243, 255);
+    border-radius: 50px;
+}
+
+li{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.fila{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 5px;
+}
+
+.boton{
+    display: flex;
+    gap: 5px;
+}
+
+.nombrelista{
+    border: 0.5px solid gray;
+    border-radius: 0.345rem;
+    color: black;
+    background-color: rgb(235, 225, 225);
+    font-size: 1.1rem;
+}
+
+.nombrelista:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.telefonolista{
+    border: 0.5px solid gray;
+    border-radius: 0.345rem;
+    color: black;
+    background-color: rgb(235, 225, 225);
+    font-size: 1.1rem;
+}
+
+.telefonolista:hover{
+    background-color: white;
+}
+
+.edit{
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 190, 121);
+    color: white;
+}
+
+.edit:hover{
+    background-color: rgb(33, 126, 71);
+    border-radius: 0.35rem;
+}
+
+
+.delete{
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+.delete:hover{
+    background-color: rgb(146, 9, 9);
+    border-radius: 0.5rem;
+}
+
+@media (min-width: 320px) {
+    #main {
+        width: 80%;
+    }
+}
+
+
+    @media (min-width: 767px) {
+    #main {
+        width: 90%;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2, #error{
+        font-size: 1.5rem;
+    }
+
+    .crear{
+    font-size: 1.1rem;
+    }
+
+    form, ul {
+        width: 70%; 
+    }
+
+}
+
+@media (min-width: 1023px) {
+    #main {
+        width: 90%;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2, #error {
+        font-size: 1.5rem;
+    }
+
+    ul, form{
+        width: 60%;
+    }
+}
+
+@media (min-width: 1444px) {
+    #main {
+        width: 90%;
+        max-width: 1600px;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2, .error {
+        font-size: 1rem;
+    }
+
+    ul, form{
+        width: 60%;
+    }
+
+}

@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+:root {
+    color-scheme: light dark;
+    /* Color: light */
+    --body-color-light: rgb(218, 193, 214);
+    --fondo-color-light:rgb(255, 254, 255);
+    --color-boton-light:rgb(108, 50, 119);
+    --color-text-error-light: rgb(153, 16, 16);
+
+
+    /* Color: dark */
+    --body-color-dark: rgb(34, 30, 34);
+    --fondo-color-dark:rgb(213, 192, 223);
+    --color-boton-dark:rgb(151, 76, 170);
+    --color-text-error-dark: rgb(145, 34, 7);
+
+    /* Color */
+    --body-color: light-dark(var(--body-color-light), var(--body-color-dark));
+    --fondo-color: light-dark(var(--fondo-color-light), var(--fondo-color-dark));
+    --color-boton: light-dark(var(--color-boton-light), var(--color-boton-dark));
+    --color-text-error: light-dark(var(--color-text-error-light), var(--color-text-error-dark));
+
+
+    --max-width-page: 80rem;
+}
