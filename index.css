@@ -146,7 +146,7 @@ li{
 
 .edit{
     border: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -163,7 +163,7 @@ li{
 
 .delete{
     border: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -245,3 +245,4 @@ li{
 
 
 }
+
