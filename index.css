@@ -177,13 +177,6 @@ li{
     border-radius: 0.5rem;
 }
 
-@media (min-width: 320px) {
-    #main {
-        width: 80%;
-    }
-}
-
-
     @media (min-width: 767px) {
     #main {
         width: 90%;
@@ -249,5 +242,6 @@ li{
 
 
 }
+
 
 
