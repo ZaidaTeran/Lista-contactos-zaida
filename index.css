@@ -79,7 +79,7 @@ ul{
     width: 90%;
     list-style: none;
     border-radius: 0.5rem;
-    padding-left: 10px;
+    padding-left: 2px;
     padding-right: 10px;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ li{
     border-radius: 0.345rem;
     color: black;
     background-color: rgb(235, 225, 225);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .nombrelista:hover{
@@ -137,7 +137,7 @@ li{
     border-radius: 0.345rem;
     color: black;
     background-color: rgb(235, 225, 225);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .telefonolista:hover{
@@ -205,6 +205,10 @@ li{
         width: 70%; 
     }
 
+    .edit, .delete{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media (min-width: 1023px) {
@@ -245,4 +249,5 @@ li{
 
 
 }
+
 
